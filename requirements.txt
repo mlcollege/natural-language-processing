@@ -1,0 +1,10 @@
+jupyter
+ipywidgets
+matplotlib
+numpy
+scipy
+gensim
+scikit-learn
+pandas
+tensorflow
+keras
