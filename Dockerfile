@@ -47,5 +47,7 @@ RUN pip3 install --upgrade matplotlib
 RUN pip3 install -r /requirements.txt
 RUN jupyter nbextension enable --py widgetsnbextension
 
+RUN python3 -c 'import nltk; nltk.download("stopwords")'
+
 COPY run.sh /
 ENTRYPOINT ./run.sh
